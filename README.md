@@ -24,20 +24,20 @@ Local Bites is a React Native application that showcases a list of local restaur
 
 4. Run the app on your preferred platform:
 
-• Android: npm run android
-• iOS: npm run ios
-• 📱 Physical device: install [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Android**: npm run android
+- **iOS**: npm run ios
+- 📱 **Physical device**: install [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Dependencies
-• Expo
-• React
-• React Native
-• React Native Paper
-• Expo Vector Icons
+**Dependencies**:
+- Expo
+- React
+- React Native
+- React Native Paper
+- Expo Vector Icons
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 • Icons provided by Expo Vector Icons.
 • Built with React Native and Expo.
