@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, Dimensions } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-interface RestaurantCardProps {
+export interface RestaurantCardProps {
     restaurantItem: {
         name: string;
         categories: string;
@@ -16,7 +16,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurantItem }) => {
     const rating = 4;
     return (
         <View style={styles.container}>
-            <Image source={image} style={styles.image} />
+            <Image source={{ uri: image }} style={styles.image} />
             <View style={styles.viewContainer}>
                 <View style={styles.textContainer}>
                     <Text style={styles.title}>{name}</Text>
